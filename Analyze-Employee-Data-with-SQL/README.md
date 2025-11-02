@@ -5,7 +5,7 @@
 
 ---
 
-## 🧠 Project Overview
+##  Project Overview
 
 This project demonstrates how to use SQL to analyze employee and department data using a variety of SQL concepts — from basic queries to advanced window functions.
 
@@ -13,7 +13,7 @@ The goal is to strengthen practical SQL skills while answering real-world busine
 
 ---
 
-## 📂 Dataset Description
+##  Dataset Description
 
 We used two tables:
 
@@ -22,32 +22,32 @@ We used two tables:
 
 ---
 
-## 📌 What This Project Covers
+## What This Project Covers
 
-### 🔹 Basic SELECT & WHERE
+###  Basic SELECT & WHERE
 - Filter employees by department, hire date, and salary range.
 
-### 🔹 ORDER BY Practice
+###  ORDER BY Practice
 - Sort employees by hire date and salary.
 
-### 🔹 DISTINCT & Aggregates
+###  DISTINCT & Aggregates
 - Count employees and calculate average salaries.
 
-### 🔹 GROUP BY & HAVING
+###  GROUP BY & HAVING
 - Group salary data by department and apply filters.
 
-### 🔹 JOINS
+###  JOINS
 - Combine employee and department data using INNER and LEFT JOINs.
 
-### 🔹 WINDOW FUNCTIONS (Advanced)
+###  WINDOW FUNCTIONS (Advanced)
 - Use RANK and MAX to analyze salary rankings and department-level insights.
 
-### 🔹 Challenge Tasks
+###  Challenge Tasks
 - Get top-paid employees per department, detect duplicate names, and extract year from hire dates.
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 
 - SQL (T-SQL / Azure Data Studio / Synapse)
 - GitHub for version control and sharing
@@ -55,7 +55,7 @@ We used two tables:
 
 ---
 
-## 📁 Files Included
+##  Files Included
 
 - `Zingo_Database_project.ipynb` – Main SQL notebook
 - `SQL Project: Analyse Employee Data`- Project Report
@@ -64,7 +64,7 @@ We used two tables:
 
 ---
 
-## 📬 Contact
+##  Contact
 
 If you have questions or suggestions, feel free to open an issue or contact me via GitHub.
 
