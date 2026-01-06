@@ -64,8 +64,7 @@ The data model follows a simple relational structure:
 - `sales.product_id` → `menu.product_id`
 - `sales.customer_id` → `members.customer_id`
 
-(ERD)
-
+![ERD](./ERD.png)
 ---
 
 ## Case Study Questions
@@ -123,3 +122,4 @@ Rank each customer’s purchases chronologically, separating member purchases fr
 ---
 
 ⭐ If this project helped or inspired you, feel free to star the repository!
+
