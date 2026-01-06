@@ -1,0 +1,33 @@
+Case Study Questions – Naz’s Sushi Bar
+
+Total Customer Spend
+What is the total amount of money each customer has spent at Naz’s Sushi Bar?
+
+Customer Visit Frequency
+How many distinct days has each customer visited the sushi bar?
+
+First Purchase Behavior
+What was the first menu item purchased by each customer?
+If a customer ordered multiple items on their first visit, return all items.
+
+Top-Selling Menu Item
+Which menu item has been purchased the most overall, based on total quantity sold?
+
+Customer Preferences
+What is the most popular menu item for each customer, based on total quantity ordered?
+
+Post-Membership Purchase
+For each customer who joined the loyalty program, what was the first item they purchased after becoming a member?
+
+Pre-Membership Purchase
+What menu item was purchased immediately before each customer became a member?
+
+Spending Before Membership
+For each customer, what is the total number of items purchased and the total amount spent before they joined the loyalty program?
+
+Loyalty Points Calculation
+If every £1 spent earns 10 loyalty points, and sushi earns double points, how many total loyalty points has each customer earned?
+
+Promotional Bonus Period
+During the first 7 days starting from a customer’s membership join date (inclusive), all menu items earn double points.
+How many loyalty points do Customer A and Customer B have by the end of January 2025?
