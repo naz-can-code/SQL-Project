@@ -120,12 +120,16 @@ on fo.product_id=m.product_id
 ### 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
 
 ```sql
-SELECT   product_name AS most_purchased_item,
-         count(s.product_id) AS order_count
-FROM     dannys_diner.menu m JOIN dannys_diner.sales s USING(product_id)
-GROUP BY 1
-ORDER BY 2 DESC
-LIMIT    1
+select 
+	top 1 sum(s.quantity) as total_sold_qty,
+	m.product_id,
+	m.product_name
+from sales s
+join menu m
+on s.product_id=m.product_id
+group by m.product_id,m.product_name
+order by total_sold_qty desc
+
 ```
 
 #### Result set:
@@ -214,7 +218,6 @@ JOIN first_post_day f
 JOIN dbo.menu m
   ON m.product_id = p.product_id
 ORDER BY p.customer_id, m.product_name;
-GO
 
 
 ```
